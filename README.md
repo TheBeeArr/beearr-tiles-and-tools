@@ -29,7 +29,7 @@ I personally like to use many mods, especially new tiles. As such most of this p
 
 ## TileZed - Fence Tool ![Fence Tool](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4cd04d6f7bad494a38c857c2211bc81479ac845f/Images/2023-03-08%2023_41_36-Window.png)
 
-### Expanded Tiles
+### Expanded Tile Selection
 Pertominus#5743 gave me a great deal of inspiration when he shared his personal 'tool-fence-data.lua'. I have greatly expanded upon that list of fences to include all fences, both vanilla and modded (excluding the broken pieces.) As well as other non-fence tiles which work well with the tool, such as power lines, HVAC tiles, vines, etc.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/5f94445780a14faea8999411e613b5a15c5ce641/Images/2023-03-08%2023_55_27-Window.png)
@@ -72,7 +72,7 @@ fence {
 ```
 ## TileZed - Edge Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_56_53-Window.png)
 
-### Expanded Tiles
+### Expanded Tile Selection
 While the functionality of the Edge Tool remains unchanged, the list of available tiles has been increased.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_57_04-Window.png)
@@ -85,7 +85,7 @@ The Edge Tool distinguishes itself from the fence tool in its ability to draw 'O
 
 ## TileZed - Single-tile Object Tool (Formerly Street Decoration Tool) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dd9cd9756268d928306dfd54ccc4af7f078fb0e2/Images/2023-03-09%2001_17_54-Window.png)
 
-### Expanded Tiles
+### Expanded Tile Selection
 The lackluster vanilla selection has been greatly increased to cover most tiles that could be used outdoors.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dd9cd9756268d928306dfd54ccc4af7f078fb0e2/Images/2023-03-09%2001_18_27-Window.png)
