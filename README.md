@@ -70,13 +70,28 @@ fence {
    se = 'fencing_01_69'
 }
 ```
-## TileZed - Edge Tool
+## TileZed - Edge Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_56_53-Window.png)
 
 ### Expanded Tiles
 While the functionality of the Edge Tool remains unchanged, the list of available tiles has been increased.
 
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_57_04-Window.png)
+
 ### More than just edges.
-While similar to the 
+The Edge Tool distinguishes itself from the fence tool in its ability to draw 'Outer' and 'Inner' corners, which greatly expands its use beyond simply drawing Grime and traffic lines. Although the current set of tiles which can benefit from placement througn this tool is low, new updates to vanilla and modded content might add new tiles to be used. Here are some examples:
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/flowers.gif)
+![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/dddpowerstation.gif)
+
+## TileZed - Single-tile Object Tool (Formerly Street Decoration Tool)
+
+### Expanded Tiles
+The lackluster vanilla selection has been greatly increased to cover most tiles that could be used outdoors.
+
+### Increased Height Limit
+The original tool was able to place street lamps and traffic lights layers 0_Furniture and 1_Furniture. The tool is now able to place tiles on the 2_Furniture layer. Currently the only tile that makes use of this is the Utility pole, which when used in conjunction with the Fence Tool, makes the process placing power powerlines much easier.
+
+
 
 
 
