@@ -48,6 +48,27 @@ You are now able to place double gates on fences that support them! Holding the 
 
 ## Example Data Entry
 
+```lua
+fence {
+   label = 'Tall Black Metal - Double Gate Op.',
+   west1 = 'fencing_01_67',
+   west2 = 'fencing_01_66',
+   gate_space_w = nil,
+   gate_door_w = 'fixtures_doors_fences_01_41',
+	 gate_door_w2 = 'fixtures_doors_fences_01_40',
+   north1 = 'fencing_01_64',
+   north2 = 'fencing_01_65',
+   gate_space_n = nil,
+   gate_door_n = 'fixtures_doors_fences_01_42',
+	 gate_door_n2 = 'fixtures_doors_fences_01_43',
+   nw = 'fencing_01_68',
+	 sw = nil
+	 ne = nil
+   post = 'fencing_01_69',
+   se = 'fencing_01_69'
+}
+```
+
 
 
 
