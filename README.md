@@ -27,7 +27,7 @@ I personally like to use many mods, especially new tiles. As such most of this p
 
 # The Tools:
 
-## TileZed - Fence Tool
+## TileZed - ![Fence Tool](Images/2023-03-08 23_41_36-Window.png)
 
 ### Expanded Tiles:
 Pertominus#5743 gave me a great deal of inspiration when he posted his personal 'tool-fence-data.lua. I have greatly expanded upon that list of fences to include all fences, both vanilla and modded (excluding the broken pieces.) As well as other non-fence tiles which work well with the tool, such as power lines, HVAC tiles, vines, etc.
