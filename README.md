@@ -41,6 +41,8 @@ The original Fence tool was limited when it came to the placement of corner tile
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4abe9f6f3161f957f41b340a09cd46b7fcdc1760/Images/hedge.gif)
 ![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4abe9f6f3161f957f41b340a09cd46b7fcdc1760/Images/hvacfence.gif)
 
+Remember to use the Ctrl Key to draw the SE corner manually. (It is the same as the 'post' tile in the old tool.)
+
 ### Double Gates
 You are now able to place double gates on fences that support them! Holding the Alt Key when drawing fences should begin to draw the first gate tile; continue holding the alt key as you place the adjacent tile.
 
@@ -62,12 +64,21 @@ fence {
    gate_door_n = 'fixtures_doors_fences_01_42',
 	 gate_door_n2 = 'fixtures_doors_fences_01_43',
    nw = 'fencing_01_68',
-	 sw = nil
-	 ne = nil
+	 sw = nil,
+	 ne = nil,
    post = 'fencing_01_69',
    se = 'fencing_01_69'
 }
 ```
+## TileZed - Edge Tool
+
+### Expanded Tiles
+While the functionality of the Edge Tool remains unchanged, the list of available tiles has been increased.
+
+### More than just edges.
+While similar to the 
+
+
 
 
 
