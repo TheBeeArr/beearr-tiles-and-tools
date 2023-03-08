@@ -11,5 +11,5 @@ Before you change anything in your own editors, please remember to backup all of
 - Any and all building files (.tbx).
 - Any and all tilesheets (.png).
 
-I am not responsible for any loss of data resulting from the usage of these tools. See license.
+I am not responsible for any loss of data resulting from the usage of these tools. [See license.txt for more information](main/license.txt)
 
