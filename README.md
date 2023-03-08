@@ -95,6 +95,35 @@ The original tool was able to place street lamps and traffic lights layers 0_Fur
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dd9cd9756268d928306dfd54ccc4af7f078fb0e2/Images/utilitypoles.gif)
 
+### Example Data Entry
+
+```lua
+add4d {
+    label = 'Utility Pole',
+    layer0 = '0_Furniture',
+    tile0 = {
+	w = 'appliances_com_01_94',
+	n = 'appliances_com_01_88',
+	e = 'appliances_com_01_94',
+	s = 'appliances_com_01_88'
+    },
+    layer1 = '1_Furniture',
+    tile1 = {
+		w = 'appliances_com_01_95',
+        n = 'appliances_com_01_89',
+        e = 'appliances_com_01_95',
+        s = 'appliances_com_01_89'	
+    },
+	layer2 = '2_Furniture',
+    tile2 = {
+		w = 'appliances_com_01_92',
+        n = 'appliances_com_01_93',
+        e = 'appliances_com_01_92',
+        s = 'appliances_com_01_93'
+    },
+	distance = true
+}
+```
 
 
 
