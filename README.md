@@ -132,7 +132,7 @@ add4d {
 Gone are the days in which you have to rumage through tilesheets and manually select tiles when you want to place a large object directly in TileZed. This tool is my crowining acheivement and allows you to place multi-tile objects with one click! While the current selection of tiles isn't quite extensive, it is easily expandable as with the other tools.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d285affc3e458fecb6a8a0a7e5fdfc28a82a6503/Images/mto2.png)
-![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/be71d7625738b85c2b227bd9be59e25dcccb883c/Images/mto1.gif)
+![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/3fb8562d2ba876dc2319bfd61f9d2f6501281b20/Images/mto1.gif)
 
 ### Rotating Objects.
 
