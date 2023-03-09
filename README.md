@@ -345,6 +345,7 @@ The process of adding the tools is faily simple. Head to your TileZed folder and
 
 - Replace the 'LuaTools.txt' within your /TileZed/ folder by the one provided in this Project.
 - Add all files within the provided /TileZed/lua/ folder to your /TileZed/lua/ folder, replacing all files when prompted.
+- If you use Alree's fork of TileZed, place the files on the TileZed folder of his fork.
 
 ## Choosing which tools to use.
 
