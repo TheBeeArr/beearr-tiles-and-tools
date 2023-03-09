@@ -22,7 +22,7 @@ I am not responsible for any loss of data resulting from the usage of these tool
 
 # Watch out for Mods!
 
-I personally like to use many mods, especially new tiles. As such most of this project requires the same mods/tilesheets to be available, the list of which can be found here. 
+I personally like to use many mods, especially new tiles. As such most of this project requires the same mods/tilesheets to be available, the list of which can be [found here](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4b3542f52aed6af7a105e182aa42905fe1b6ca48/-dot-TileZed/Tilesets.txt). 
 - I have separated the tiles used by the TileZed tools into two categories (Vanilla and Modded); it should be easy to spot and comment out the modded tiles if you prefer to make maps using only Vanilla tiles.
 - When it comes to the BuildingEd ISO mode, I made no such separation, and using my modifications to that tool without the mods/tilesheets is not recommended.
 
