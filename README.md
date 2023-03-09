@@ -212,17 +212,17 @@ Thanks to our wonderful tile-makers, this tool's usable tile pool has been great
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/fb55bccd1f056901922da2d3e32260613556569e/Images/houseplant.gif)
 
 ## NEW - Grass Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/26eea2bdc144a847ac0b2af79935821980974286/Images/gress.png)
-Allows you to place grass anywhere.
+Allows you to place grass anywhere. No more fidgeting with Rulesets and the BMP Brush.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/17d660f0e57246697d43aa9169e43fb81d5926f1/Images/grass.gif)
 
 ## NEW - Shrub Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/bushes.png)
-Allows you to place shrubs, and low plants.
+Allows you to place shrubs, and other low plants.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/shrub.gif)
 
 ## NEW - Seasonal Bushes ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/4seasonbushes.png)
-Placing Bushes by hand with the new game tiles was incredibly difficult. You needed to select each of the bush tiles (Wood, Leaves, Flowers) and place them one-by-one, changing layers in between. This Bush tool does that automatically, randomizing the bushes placed in the process.
+Placing Bushes by hand with the new game tiles was incredibly difficult. You needed to select each of the bush tiles (Branches, Leaves, Flowers) and place them one-by-one, changing layers in between. This Bush tool does that automatically, randomizing the bushes placed in the process.
 
 - Before using this tool, add the following Layers to your map: '0_Vegetation', '0_Vegetation1', '0_Vegetation2'.
 
@@ -236,7 +236,10 @@ This tool is also able to place bushes from different seasons:
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/4seasonbushes.gif)
 
 ### Example Data Entry
+The tool works by pulling tilesheet data from each bracket, in order, and placing the fisrt one on the '0_Vegetation' layer, the second one on the '0_Vegetation1' layer, and the third one on the '0_Vegetation2' layer.
 
+- The spring tool is the only one which is cable of using three layers, '0_Vegetation' for the branches, '0_Vegetation1' for the leaves, and '0_Vegetation2' for the flowers. It will also place two tiles, or even one, if only that is available within the brackets.
+- The autumn and summer tools can place one or two layers, while the winter tool can only place one.
 
 ```lua
 spring = {
@@ -256,6 +259,25 @@ winter = {
 {'f_bushes_1_0'},
 }
 ```
+## NEW - Tree Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dff6b2a3e47a9b2b688d19e815e9126e0b7103bc/Images/trees.png)
+Allows you to place trees anywhere in the map! No more fidgeting with Rulesets and the BMP Brush.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dff6b2a3e47a9b2b688d19e815e9126e0b7103bc/Images/trees.gif)
+
+## NEW - Seasonal Trees ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dff6b2a3e47a9b2b688d19e815e9126e0b7103bc/Images/4seasontrees.png)
+
+Placing Trees by hand with the new game tiles was incredibly difficult. You needed to select each of the tree tiles (Branches, Leaves, Flowers) and place them one-by-one, changing layers in between. This Bush tool does that automatically, randomizing the trees placed in the process.
+
+- Before using this tool, add the following Layers to your map: '0_Vegetation', '0_Vegetation1', '0_Vegetation2'.
+
+### Four Seasons
+This tool is also able to place trees from different seasons:
+- By holding the Alt Key, you are able to place Spring Trees.
+- By holding the Ctrl Key, you are able to place Autumn Trees.
+- By holding the Shift Key, you are able to place Winter Trees.
+- Without holding any Key, the tool defaults to Summer/Green Trees.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dff6b2a3e47a9b2b688d19e815e9126e0b7103bc/Images/4seasontrees.gif)
 
 
 
