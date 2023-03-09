@@ -135,6 +135,9 @@ Gone are the days in which you have to rumage through tilesheets and manually se
 ![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/3fb8562d2ba876dc2319bfd61f9d2f6501281b20/Images/mto1.gif)
 
 ### Rotating Objects.
+MTO can rotate objects! By pressing the Alt, Ctrl, or Shift Keys, the object will be rotated if different orientation versions of that object are available.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d4e7f0c3420d6d1a1fcc27ce6904fb4624f6cc8f/Images/mto2.gif)
 
 
 
