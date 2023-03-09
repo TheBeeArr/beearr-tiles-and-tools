@@ -340,6 +340,9 @@ Allows you to place blood splaters on the '0_FloorOverlay' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.gif)
 
+## Adding these tools to your TileZed.
+The process of adding the tools is faily simple.
+
 
 
 
