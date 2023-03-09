@@ -1,0 +1,9 @@
+version = 0
+rooms
+{
+    room = hall
+}
+maps
+{
+    map = windows.tbx
+}

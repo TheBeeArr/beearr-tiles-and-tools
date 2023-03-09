@@ -1,0 +1,1659 @@
+property
+{
+    Type = Integer
+    Name = Surface
+    ShortName =
+    Min = 0
+    Max = 128
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = IsSurfaceOffset
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IgnoreSurfaceSnap
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Integer
+    Name = ItemHeight
+    ShortName = 
+    Min = 0
+    Max = 256
+    Default = 0
+}
+
+separator
+{
+}
+
+property
+{
+    Type = Boolean
+    Name = IsMoveAble
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = MoveType
+    ShortName =
+    Enums
+    {
+        Normal = Object
+        WallObject = WallObject
+        WindowObject = WindowObject
+        Window = Window
+        FloorTile = FloorTile
+        FloorRug = FloorRug
+        Vegitation = Vegitation
+    }
+    Default = Normal
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = WallObjectAllowDoorframe
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = String
+    Name = CustomName
+    ShortName =
+    Default = 
+}
+property
+{
+    Type = Enum
+    Name = PickUpTool
+    ShortName =
+    Enums
+    {
+        None =
+        Hammer = Hammer
+        Crowbar = Crowbar
+        Electrician = Electrician
+        Cutter = Cutter
+        Shovel = Shovel
+        Wrench = Wrench
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Enum
+    Name = PlaceTool
+    ShortName =
+    Enums
+    {
+        None =
+        Hammer = Hammer
+        Crowbar = Crowbar
+        Electrician = Electrician
+        Cutter = Cutter
+        Shovel = Shovel
+        Wrench = Wrench
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Integer
+    Name = PickUpLevel
+    ShortName =
+    Min = 0
+    Max = 5
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = PickUpWeight
+    ShortName =
+    Min = 0
+    Max = 1000
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = CanBreak
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsClosedState
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = String
+    Name = GroupName
+    ShortName =
+    Default =
+}
+property
+{
+    Type = Enum
+    Name = Facing
+    ShortName =
+    Enums
+    {
+        None = none
+        North = N
+        West = W
+        South = S
+        East = E
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Enum
+    Name = SpriteGridPos
+    ShortName =
+    Enums
+    {
+        None =
+        0,0 = 0,0
+        0,1 = 0,1
+        0,2 = 0,2
+        0,3 = 0,3
+        1,0 = 1,0
+        1,1 = 1,1
+        1,2 = 1,2
+        1,3 = 1,3
+        2,0 = 2,0
+        2,1 = 2,1
+        2,2 = 2,2
+        2,3 = 2,3
+        3,0 = 3,0
+        3,1 = 3,1
+        3,2 = 3,2
+        3,3 = 3,3
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = ForceSingleItem
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsGridExtensionTile
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = IsoType
+    ShortName =
+    Enums
+    {
+        IsoObject = IsoObject
+        IsoBarbecue = IsoBarbecue
+        IsoBrokenGlass = IsoBrokenGlass
+        IsoClothingDryer = IsoClothingDryer
+        IsoClothingWasher = IsoClothingWasher
+        IsoCombinationWasherDryer = IsoCombinationWasherDryer
+        IsoFireplace = IsoFireplace
+        IsoMannequin = IsoMannequin
+        IsoRadio = IsoRadio
+        IsoJukebox = IsoJukebox
+        IsoStove = IsoStove
+        IsoTelevision = IsoTelevision
+        IsoMultiMedia = IsoMultiMedia
+    }
+    Default = IsoObject
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = String
+    Name = Item (full name)
+    ShortName = CustomItem
+    Default =
+}
+separator
+{
+}
+property
+{
+    Type = Boolean
+    Name = BlocksPlacement
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsHigh (only occupies upper half)
+    ShortName = IsHigh
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsLow (only occupies lower half)
+    ShortName = IsLow
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsTable
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsTableTop
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = signal
+    ShortName =
+    Enums
+    {
+        none = none
+        Radio Device = radio
+        Television Device = tv
+    }
+    Default = none
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Enum
+    Name = Material
+    ShortName =
+    Enums
+    {
+        Undefined = Undefined
+        AluminumScrap = AluminumScrap
+        Brick = Brick
+        Door = Door
+        Electric = Electric
+        Fabric = Fabric
+        Foam = Foam
+        Fridge = Fridge
+        Glass = Glass
+        Leather = Leather
+        Mechanical = Mechanical
+        MetalBars = MetalBars
+        MetalPipe = MetalPipe
+        MetalPlates = MetalPlates
+        SmallMetalPlates = SmallMetalPlates
+        MetalScrap = MetalScrap
+        MetalWire = MetalWire
+        Mirror = Mirror
+        Nails = Nails
+        Natural = Natural
+        Paper = Paper
+        Pipes = Pipes
+        Plastic = Plastic
+        PlasticBag = PlasticBag
+        PlasticHard = PlasticHard
+        Plumbing = Plumbing
+        Rubber = Rubber
+        Screws = Screws
+        Sink = Sink
+        Steel = Steel
+        Stone = Stone
+        Transmission = Transmission
+        WaterContainer = WaterContainer
+        Wood = Wood
+    }
+    Default = Undefined
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Enum
+    Name = Material2
+    ShortName =
+    Enums
+    {
+        Undefined = Undefined
+        AluminumScrap = AluminumScrap
+        Brick = Brick
+        Door = Door
+        Electric = Electric
+        Fabric = Fabric
+        Foam = Foam
+        Fridge = Fridge
+        Glass = Glass
+        Leather = Leather
+        Mechanical = Mechanical
+        MetalBars = MetalBars
+        MetalPipe = MetalPipe
+        MetalPlates = MetalPlates
+        SmallMetalPlates = SmallMetalPlates
+        MetalScrap = MetalScrap
+        MetalWire = MetalWire
+        Mirror = Mirror
+        Nails = Nails
+        Natural = Natural
+        Paper = Paper
+        Pipes = Pipes
+        Plastic = Plastic
+        PlasticBag = PlasticBag
+        PlasticHard = PlasticHard
+        Plumbing = Plumbing
+        Rubber = Rubber
+        Screws = Screws
+        Sink = Sink
+        Steel = Steel
+        Stone = Stone
+        Transmission = Transmission
+        WaterContainer = WaterContainer
+        Wood = Wood
+    }
+    Default = Undefined
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Enum
+    Name = Material3
+    ShortName =
+    Enums
+    {
+        Undefined = Undefined
+        AluminumScrap = AluminumScrap
+        Brick = Brick
+        Door = Door
+        Electric = Electric
+        Fabric = Fabric
+        Foam = Foam
+        Fridge = Fridge
+        Glass = Glass
+        Leather = Leather
+        Mechanical = Mechanical
+        MetalBars = MetalBars
+        MetalPipe = MetalPipe
+        MetalPlates = MetalPlates
+        SmallMetalPlates = SmallMetalPlates
+        MetalScrap = MetalScrap
+        MetalWire = MetalWire
+        Mirror = Mirror
+        Nails = Nails
+        Natural = Natural
+        Paper = Paper
+        Pipes = Pipes
+        Plastic = Plastic
+        PlasticBag = PlasticBag
+        PlasticHard = PlasticHard
+        Plumbing = Plumbing
+        Rubber = Rubber
+        Screws = Screws
+        Sink = Sink
+        Steel = Steel
+        Stone = Stone
+        Transmission = Transmission
+        WaterContainer = WaterContainer
+        Wood = Wood
+    }
+    Default = Undefined
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = CanScrap
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = ScrapUseTool
+    ShortName =
+    Default = true
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = ScrapUseSkill
+    ShortName =
+    Default = true
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = ScrapSize
+    ShortName =
+    Enums
+    {
+        Small = Small
+        Medium = Medium
+        Large = Large
+    }
+    Default = Medium
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Integer
+    Name = ScrapToolUseOverride
+    ShortName =
+    Min = -1
+    Max = 100
+    Default = -1
+}
+
+separator
+{
+}
+
+property
+{
+    Type = Boolean
+    Name = TileOverlay
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = String
+    Name = FlatTextureOverride
+    ShortName = FlatTextureOverride
+    Default =
+}
+
+property
+{
+    Type = Integer
+    Name = FlatTextureOffset
+    ShortName = FlatTextureOffset
+    Min = -64
+    Max = 64
+    Default = 0
+}                 
+
+property
+{
+    Type = String
+    Name = BurntTile
+    ShortName = BurntTile
+    Default =
+}
+
+property
+{
+    Type = Enum
+    Name = GrimeType
+    ShortName =
+    Enums
+    {
+        None =
+        FullWindow =
+        Trim =
+        DoubleLeft =
+        DoubleRight =
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = Boolean
+    Name = Light
+    ShortName = lightswitch
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsMirror
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = Disable Fade
+    ShortName = disableFade
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = Force Fade
+    ShortName = forceFade
+    Default = false
+    ReverseLogic = false
+}
+
+
+property
+{
+    Type = Integer
+    Name = LightR
+    ShortName = lightR
+    Min = 0
+    Max = 255
+    Default = 0
+}
+
+property
+{
+    Type = Integer
+    Name = LightG
+    ShortName = lightG
+    Min = 0
+    Max = 255
+    Default = 0
+}
+
+property
+{
+    Type = Integer
+    Name = LightB
+    ShortName = lightB
+    Min = 0
+    Max = 255
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = LightRadius
+    ShortName =
+    Min = 0
+    Max = 128
+    Default = 0
+}
+
+property
+{
+    Type = Boolean
+    Name = Streetlight
+    ShortName = streetlight
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = excludeFromIso
+    Name = excludeFromIso
+    ShortName = excludeFromIso
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = CollideNorth
+    ShortName = collideN
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = CollideWest
+    ShortName = collideW
+    Default = false
+    ReverseLogic = false
+}
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = Door
+    ShortName =
+    Enums
+    {
+        None =
+        North = doorN
+        West = doorW
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+property
+{
+    Type = Enum
+    Name = DoorFrame
+    ShortName =
+    Enums
+    {
+        None =
+        North = doorFrN
+        West = doorFrW
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+property
+{
+    Type = Boolean
+    Name = Door Transparent
+    ShortName = doorTrans
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = Force Locked
+    ShortName = forceLocked
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Integer
+    Name = DoubleDoor
+    ShortName =
+    Min = 0
+    Max = 8
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = GarageDoor
+    ShortName = 
+    Min = 0
+    Max = 6
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = Door Interior Side
+    ShortName = InteriorSide
+    Default = false
+    ReverseLogic = false
+}
+separator
+{
+}
+property
+{
+    Type = Boolean
+    Name = IsBed
+    ShortName = bed
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = BedType
+    ShortName =
+    Enums
+    {
+        None =       
+        Good Bed = goodBed
+        Average Bed = averageBed
+        Bad Bed = badBed
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = FloorOverlay
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsFloor
+    ShortName = solidfloor
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = Zac Diamond Floor
+    ShortName = diamondFloor
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = Render Layer
+    ShortName = RenderLayer
+    Enums
+    {
+        Default =
+        Floor =
+    }
+    Default = Default
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Enum
+    Name = FloorHeight
+    ShortName =
+    Enums
+    {
+        Flat =
+        OneThird =
+        TwoThirds =
+    }
+    Default = Flat
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = IsIndoor
+    ShortName = exterior
+    Default = true
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = Transparent Floor
+    ShortName = transparentFloor
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = Curtain
+    ShortName =
+    Enums
+    {
+        None =
+        North = curtainN
+        West = curtainW
+        South = curtainS
+        East = curtainE
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = TileBlockStyle
+    ShortName =
+    Enums
+    {
+        None =
+        Solid = solid
+        SolidTransparent = solidtrans
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+property
+{
+    Type = Enum
+    Name = Movement
+    ShortName =
+    Enums
+    {
+        NoEffect =
+        HedgeLow =
+        HedgeHigh =
+    }
+    Default = NoEffect
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = Bush
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = ForceAmbient
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = PreSeen
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = NoWallLighting
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+separator
+{
+}
+property
+{
+    Type = String
+    Name = ContainerType
+    ShortName = container
+    Default =
+}
+property
+{
+    Type = Integer
+    Name = ContainerCapacity
+    ShortName = 
+    Min = 0
+    Max = 100
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = IsTrashCan
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Enum
+    Name = ContainerPosition
+    ShortName =
+    Enums
+    {
+    	Normal = 
+    	Low = Low
+    	High = High
+    }
+    Default = Normal
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = Freezer
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Integer
+    Name = FreezerCapacity
+    ShortName = 
+    Min = 0
+    Max = 50
+    Default = 0
+}
+property
+{
+    Type = Enum
+    Name = FreezerPosition
+    ShortName =
+    Enums
+    {
+    	Normal = 
+    	Low = Low
+    	High = High
+    }
+    Default = Normal
+    ValueAsPropertyName = false
+}
+property
+{
+    Type = Boolean
+    Name = WheelieBin
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+separator
+{
+}
+property
+{
+    Name = RoofStyle
+    Type = Enum
+    ShortName =
+    Enums
+    {
+        None =
+        WestRoofB =
+        WestRoofM =
+        WestRoofT =
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = ClimbSheet
+    ShortName =
+    Enums
+    {
+        None =
+        ClimbSheetN = climbSheetN
+        ClimbSheetS = climbSheetS
+        ClimbSheetW = climbSheetW
+        ClimbSheetE = climbSheetE
+        ClimbSheetTopN = climbSheetTopN
+        ClimbSheetTopS = climbSheetTopS
+        ClimbSheetTopW = climbSheetTopW
+        ClimbSheetTopE = climbSheetTopE
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = StairStyle
+    ShortName =
+    Enums
+    {
+        None =
+        BottomW = stairsBW
+        MiddleW = stairsMW
+        TopW = stairsTW
+        BottomN = stairsBN
+        MiddleN = stairsMN
+        TopN = stairsTN
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = WallStyle
+    ShortName =
+    Enums
+    {
+        None =
+        WestWall = WallW
+        WestWallTrans = WallWTrans
+        WestWindow = WindowW
+        WestDoorFrame = DoorWallW
+        NorthWall = WallN
+        NorthWallTrans = WallNTrans
+        NorthWindow = WindowN
+        NorthDoorFrame = DoorWallN
+        NorthWestCorner = WallNW
+        NorthWestCornerTrans = WallNWTrans
+        SouthEastCorner = WallSE
+    }
+    Default = None
+    ValueAsPropertyName = true
+    ExtraPropertyIfSet = wall
+}
+property
+{
+    Type = Boolean
+    Name = SpearOnlyAttackThrough
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}      
+property
+{
+    Type = Enum
+    Name = CutawayStyle
+    ShortName =
+    Enums
+    {
+        None =
+        cutW = cutW
+        cutN = cutN
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+property
+{
+    Type = Boolean
+    Name = CantClimb
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}              
+property
+{
+    Type = Boolean
+    Name = TallHoppableW
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}              
+property
+{
+    Type = Boolean
+    Name = TallHoppableN
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}              
+property
+{
+    Type = String
+    Name = PaintingType
+    ShortName =
+    Default = 
+}
+property
+{
+    Type = Boolean
+    Name = IsPaintable
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = HoppableN
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = HoppableW
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Integer
+    Name = CloseSneakBonus
+    ShortName =
+    Min = 0
+    Max = 10000
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = WallOverlay
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = alwaysDraw
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedN
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedS
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedE
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedW
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedNW
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedSE
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = attachedFloor
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+separator
+{
+}
+property
+{
+    Type = Integer
+    Name = WaterAmount
+    ShortName = waterAmount
+    Min = 0
+    Max = 1000000
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = WaterMaxAmount
+    ShortName = waterMaxAmount
+    Min = 0
+    Max = 1000000
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = WaterPiped
+    ShortName = waterPiped
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = TaintedWater
+    ShortName = taintedWater
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = FishingWater
+    ShortName = water
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Integer
+    Name = FuelAmount
+    ShortName = fuelAmount
+    Min = 0
+    Max = 1000
+    Default = 0
+}
+
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = Window
+    ShortName =
+    Enums
+    {
+        None =
+        North = windowN
+        West = windowW
+    }
+    Default = None
+    ValueAsPropertyName = true
+}
+property
+{
+    Type = Integer
+    Name = OpenTileOffset
+    ShortName =
+    Min = -1000
+    Max = 1000
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = SmashedTileOffset
+    ShortName =
+    Min = -1000
+    Max = 1000
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = GlassRemovedOffset
+    ShortName =
+    Min = -1000
+    Max = 1000
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = WindowLocked
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = MakeWindowInvincible
+    ShortName = makeWindowInvincible
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = Other
+    ShortName = othe
+    Default = false
+    ReverseLogic = false
+}
+
+separator
+{
+}
+property
+{
+    Type = Enum
+    Name = Tree Size
+    ShortName = tree
+    Enums
+    {
+        None =
+        1/4 = 1
+        2/4 = 2
+        3/4 = 3
+        4/4 = 4
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = Boolean
+    Name = Can Be Cut (tree)
+    ShortName = canBeCut
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = Can Be Removed (grass)
+    ShortName = canBeRemoved
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Integer
+    Name = FireRequirement
+    ShortName = fireRequirement
+    Min = 0
+    Max = 1000000
+    Default = 0
+}
+
+property
+{
+    Type = Boolean
+    Name = Vegitation
+    ShortName = vegitation
+    Default = false
+    ReverseLogic = false
+}
+
+property
+{
+    Type = Boolean
+    Name = Propane Tank
+    ShortName = propaneTank
+    Default = false
+    ReverseLogic = false
+}
+
+separator
+{
+}
+
+property
+{
+    Type = Integer
+    Name = StackReplaceTileOffset
+    ShortName = 
+    Min = -1000
+    Max = 1000
+    Default = 0
+}
+property
+{
+    Type = Boolean
+    Name = IsStackable
+    ShortName = 
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = IsWaterCollector
+    ShortName = 
+    Default = false
+    ReverseLogic = false
+}
+
+separator
+{
+}
+
+property
+{
+    Type = Boolean
+    Name = Can be hit by car
+    ShortName = HitByCar
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Boolean
+    Name = Stop car (when hit)
+    ShortName = StopCar
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Integer
+    Name = Minimum Speed To Damage
+    ShortName = MinimumCarSpeedDmg
+    Min = 0
+    Max = 120
+    Default = 0
+}
+property
+{
+    Type = Integer
+    Name = Car Slow Factor
+    ShortName = CarSlowFactor
+    Min = 0
+    Max = 34
+    Default = 0
+}
+property
+{
+    Type = String
+    Name = Damaged Sprite (by car)
+    ShortName = DamagedSprite
+    Default = 
+}
+property
+{
+    Type = Enum
+    Name = PhysicsShape
+    ShortName =
+    Enums
+    {
+        None =
+        Solid = Solid
+        WallN = WallN
+        WallW = WallW
+        WallE = WallE
+        WallS = WallS
+        Tree = Tree
+        Floor = Floor
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+separator
+{
+}
+
+property
+{
+    Type = Boolean
+    Name = MoveWithWind
+    ShortName =
+    Default = false
+    ReverseLogic = false
+}
+property
+{
+    Type = Integer
+    Name = WindType
+    ShortName =
+    Min = 1
+    Max = 3
+    Default = 1
+}
+
+separator
+{
+}
+
+property
+{
+    Type = Enum
+    Name = CurtainSound
+    ShortName = 
+    Enums
+    {
+        None =
+        Shade = Shade
+        Sheet = Sheet
+        Long = Long
+        Short = Short
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = Enum
+    Name = DoorSound
+    ShortName = 
+    Enums
+    {
+        None =
+        Garage Door = GarageDoor
+        Metal Door = MetalDoor
+        Metal Gate = MetalGate
+        Prison Metal Door = PrisonMetalDoor
+        Sliding Glass Door = SlidingGlassDoor
+        Wood Door = WoodDoor
+        Wood Gate = WoodGate
+        Wood Shack Door = WoodShackDoor
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = String
+    Name = AmbientSound
+    ShortName =
+    Default = 
+}
+
+property
+{
+    Type = Enum
+    Name = FenceTypeHigh
+    ShortName = 
+    Enums
+    {
+        None =
+        Wood =
+        Metal =
+        MetalBars = MetalGate
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = Enum
+    Name = FenceTypeLow
+    ShortName = 
+    Enums
+    {
+        None =
+        Wood =
+        Metal =
+        Sandbag =
+        Gravelbag =
+        Barbwire =
+        RoadBlock =
+        MetalGate =
+        Other =
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = Enum
+    Name = FootstepMaterial
+    ShortName = 
+    Enums
+    {
+        None =
+        Concrete = Concrete
+        Grass = Grass
+        Gravel = Gravel
+        Wood = Wood
+        Carpet = Carpet
+        Dirt = Dirt
+        Sand = Sand
+        Ceramic = Ceramic
+        Metal = Metal
+    }
+    Default = None
+    ValueAsPropertyName = false
+}
+
+property
+{
+    Type = Enum
+    Name = SinkType
+    ShortName = 
+    Enums
+    {
+        Generic =
+        Ceramic =
+        Metal =
+    }
+    Default = Generic
+    ValueAsPropertyName = false
+}
+

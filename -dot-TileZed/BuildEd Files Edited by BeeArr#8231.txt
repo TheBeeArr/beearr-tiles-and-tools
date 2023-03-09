@@ -1,0 +1,3 @@
+See more of the project on:
+
+https://github.com/TheBeeArr/beearr-tiles-and-tools/ // GNU General Public License v3 (GPL-3)
