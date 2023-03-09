@@ -368,6 +368,9 @@ If you would like to remove modded tiles from the dataset:
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/aaad155f73edcd44dc205fbcadefbc446c66e758/Images/moddedtiles.gif)
 
 # The BuildEd Improvements
+To me, this is the true wonder of this project. So many tiles in the vanilla game, so many more from all modded tilesets... But when you are starting in Zomboid Map-Making and creating buildings with BuildEd, it is incredibly daunting to both navigate through all those tilesheets and to use those tiles effectively because not only they are not categorized, but also not properly set up within BuildEd's own ISO tile placer.
+
+To help myself, and the many others who are beginning their map-making journey (and veterans as well, of course), I painstakingly went through most of the tilesets made publicaly available by the devs in this [forum post](https://theindiestone.com/forums/index.php?/topic/50425-latest-tilezed-worlded-and-tilesets-march-14-2022/)
 
 
 
