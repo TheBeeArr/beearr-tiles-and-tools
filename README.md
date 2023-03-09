@@ -4,7 +4,7 @@ This project started as just a way to improve my personal Map-Making experience 
 
 I would like to thank everyone the [Unnoficial PZ Mapping Discord](https://discord.gg/Tc3qRrM3) for the support and help they have shown me, as well as thank all tile-makers for their wonderful tiles which are the main reason why I have created all of this in the first place.
 
-If this project helped you, and you appreciate the herculean effort it took to put this project together, please consider supporting me on Ko-fi. <a href='https://ko-fi.com/beearr' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+If this project helped you, and you appreciate the herculean effort it took to put it together, please consider supporting me on Ko-Fi. <a href='https://ko-fi.com/beearr' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 # Backup your files!
 
@@ -431,8 +431,18 @@ Regardless of which BuildEd you are currently using (Vanilla or Alree's Fork) th
 #### C:\Users\USERNAME\\.TileZed
 - Copy all files within this project's /-dot-TileZed/ folder, into your /.TileZed/ folder, replacing when prompted.
 
+## What's Next?
+While I feel pretty happy about how things tunrned out, there's always room for improvement. 
 
+- [ ] Figure out how to Automate the NewBurbs Roofs.
+- [ ] Make sure all of the TileZed .lua tools are checking layers before drawing.
+- [ ] Adding tiles extracted from the current version of the game, but are not made available by the Devs, to BuildEd ISO mode.
+- [ ] Creating my own tileset and actually finishing my first map project :joy:.
 	
+## "I have a tool idea!"
+Great, contact me on Discord and I will try my best to implement it!
+
+# Thank you for reading, and thank you for your support!
 	
 
 
