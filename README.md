@@ -205,11 +205,16 @@ When creating a new object for the tool, please keep in mind that the tiles are 
     },
 ```
     
-## Expanded - Houseplant Tool
+## Expanded - Houseplant Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/17d660f0e57246697d43aa9169e43fb81d5926f1/Images/houseplant.png)
 Thanks to our wonderful tile-makers, this tool's usable tile pool has been greatly increased. 
 Vanilla Users: While out-of-the-box it depends on those modded tiles, I made it easy to comment them out on the tool itself. 
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/fb55bccd1f056901922da2d3e32260613556569e/Images/houseplant.gif)
+
+## NEW - Grass Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/26eea2bdc144a847ac0b2af79935821980974286/Images/gress.png)
+Allows you to place grass anywhere! Very straight-forward.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/17d660f0e57246697d43aa9169e43fb81d5926f1/Images/grass.gif)
 
 
 
