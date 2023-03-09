@@ -2,14 +2,15 @@
 
 This project started as just a way to improve my personal Map-Making experience in Project Zomboid's TilZed/WordlEd/BuildingEd tools. It started with the simple goal of adding tiles to BuildingEd, but evolved into a complete new set of tools for TilZed, as well as a re-work of some existing ones, that will hopefuly make the Map-making process easier and more acessible for everyone.
 
-I would like to thank the Unnoficial PZ Mapping Discord (https://discord.gg/Tc3qRrM3) for the support and help they have shown me.
+I would like to thank everyone the Unnoficial PZ Mapping Discord (https://discord.gg/Tc3qRrM3) for the support and help they have shown me.
 
-If this project helped you, please consider supporting me on Ko-fi.
+If this project helped you, and you appreciate the herculean effort it took to put this project together, please consider supporting me on Ko-fi.
 
 # Backup your files!
 
 Before you change anything in your own editors, please remember to backup all of your relevant files, which include:
 
+- TileZed and WorldEd as a whole.
 - Any and all files modified in this project.
 - Any and all files contained within all map projects (.tmx, .pzw, .lotheader, .bin, .lotpack, etc.)
 - Any and all building files (.tbx).
@@ -25,7 +26,7 @@ I personally like to use many mods, especially new tiles. As such most of this p
 - I have separated the tiles used by the TileZed tools into two categories (Vanilla and Modded); it should be easy to spot and comment out the modded tiles if you prefer to make maps using only Vanilla tiles.
 - When it comes to the BuildingEd ISO mode, I made no such separation, and using my modifications to that tool without the mods/tilesheets is not recommended.
 
-# The Tools
+# The Tools ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/73d119b0436c002a085a028976240fad8ef2e0f4/Images/TileZedTools.png)
 
 ## TileZed - Fence Tool ![Fence Tool](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4cd04d6f7bad494a38c857c2211bc81479ac845f/Images/2023-03-08%2023_41_36-Window.png)
 
@@ -56,18 +57,18 @@ fence {
    west1 = 'fencing_01_67',
    west2 = 'fencing_01_66',
    gate_space_w = nil,
-   gate_door_w = 'fixtures_doors_fences_01_41',
-   gate_door_w2 = 'fixtures_doors_fences_01_40',
+   gate_door_w = 'fixtures_doors_fences_01_41', -- Solo Gate Tile OR Double Gate tile on x = 0, y = 0.
+   gate_door_w2 = 'fixtures_doors_fences_01_40',-- Double Gate tile on x = 0, y = 1.
    north1 = 'fencing_01_64',
    north2 = 'fencing_01_65',
    gate_space_n = nil,
-   gate_door_n = 'fixtures_doors_fences_01_42',
-   gate_door_n2 = 'fixtures_doors_fences_01_43',
+   gate_door_n = 'fixtures_doors_fences_01_42', -- Solo Gate Tile OR Double Gate tile on x = 0, y = 0.
+   gate_door_n2 = 'fixtures_doors_fences_01_43', -- Double Gate tile on x = 1, y = 0.
    nw = 'fencing_01_68',
-   sw = nil,
-   ne = nil,
+   sw = nil, -- South West Corner Piece
+   ne = nil, -- North East Corner Piece
    post = 'fencing_01_69',
-   se = 'fencing_01_69'
+   se = 'fencing_01_69' -- South East Corner Piece, same as 'post' for most fences.
 }
 ```
 ## TileZed - Edge Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_56_53-Window.png)
