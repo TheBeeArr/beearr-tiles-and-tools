@@ -2,7 +2,7 @@
 
 This project started as just a way to improve my personal Map-Making experience in Project Zomboid's TilZed/WordlEd/BuildingEd tools. It started with the simple goal of adding tiles to BuildingEd, but evolved into a complete new set of tools for TilZed, as well as a re-work of some existing ones, that will hopefuly make the Map-making process easier and more acessible for everyone.
 
-I would like to thank everyone the Unnoficial PZ Mapping Discord (https://discord.gg/Tc3qRrM3) for the support and help they have shown me, as well as thank all tile-makers for their wonderful tiles which are the main reason why I have created all of this in the first place.
+I would like to thank everyone the [Unnoficial PZ Mapping Discord](https://discord.gg/Tc3qRrM3) for the support and help they have shown me, as well as thank all tile-makers for their wonderful tiles which are the main reason why I have created all of this in the first place.
 
 If this project helped you, and you appreciate the herculean effort it took to put this project together, please consider supporting me on Ko-fi. <a href='https://ko-fi.com/beearr' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
@@ -371,6 +371,10 @@ If you would like to remove modded tiles from the dataset:
 To me, this is the true wonder of this project. So many tiles in the vanilla game, so many more from all modded tilesets... But when you are starting in Zomboid Map-Making and creating buildings with BuildEd, it is incredibly daunting to both navigate through all those tilesheets and to use those tiles effectively because not only they are not categorized, but also not properly set up within BuildEd's own ISO tile placer.
 
 To help myself, and the many others who are beginning their map-making journey (and veterans as well, of course), I painstakingly went through most of the tilesets made publicaly available by the devs in this [forum post](https://theindiestone.com/forums/index.php?/topic/50425-latest-tilezed-worlded-and-tilesets-march-14-2022/)
+	
+Not only that, but I did the same for most of the modded tilesets that our incredible community has created. The end result includes what I believe is 90% of the general use (tiles that could be used on any map // not created for specfic projects), non-meme tiles, available for use in ISO mode on BuildEd.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a248edc481c104d966afd352f942588fb84e3ced/Images/BuildEd.gif)
 
 
 
