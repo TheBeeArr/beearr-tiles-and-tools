@@ -50,6 +50,7 @@ You are now able to place double gates on fences that support them! Holding the 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/b17aeb3974c96769e16cf0363b5a672534031360/Images/doublegates.gif)
 
 ## Example Data Entry
+To create new entries, follow this template and add to 'tool-fence-data.lua'.
 
 ```lua
 fence {
@@ -97,6 +98,8 @@ The original tool was able to place street lamps and traffic lights layers 0_Fur
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dd9cd9756268d928306dfd54ccc4af7f078fb0e2/Images/utilitypoles.gif)
 
 ### Example Data Entry
+Before you use this tool, make sure your current map features all of these layers: '0_furniture, 1_furniture, 2_furniture'.
+If you wish to create new entries follow this template and add them to 'tool-street-decoration-data.lua'.
 
 ```lua
 add4d {
@@ -110,14 +113,14 @@ add4d {
     },
     layer1 = '1_Furniture',
     tile1 = {
-		w = 'appliances_com_01_95',
+	w = 'appliances_com_01_95',
         n = 'appliances_com_01_89',
         e = 'appliances_com_01_95',
         s = 'appliances_com_01_89'	
     },
-	layer2 = '2_Furniture',
+    layer2 = '2_Furniture',
     tile2 = {
-		w = 'appliances_com_01_92',
+	w = 'appliances_com_01_92',
         n = 'appliances_com_01_93',
         e = 'appliances_com_01_92',
         s = 'appliances_com_01_93'
