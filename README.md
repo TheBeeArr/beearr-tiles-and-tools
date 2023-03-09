@@ -431,7 +431,7 @@ Regardless of which BuildEd you are currently using (Vanilla or Alree's Fork) th
 #### C:\Users\USERNAME\\.TileZed
 - Copy all files within this project's /-dot-TileZed/ folder, into your /.TileZed/ folder, replacing when prompted.
 
-## What's Next?
+# What's Next?
 While I feel pretty happy about how things tunrned out, there's always room for improvement. 
 
 - [ ] Figure out how to Automate the NewBurbs Roofs.
@@ -442,7 +442,7 @@ While I feel pretty happy about how things tunrned out, there's always room for 
 ## "I have a tool idea!"
 Great, contact me on Discord and I will try my best to implement it!
 
-# Thank you for reading, and thank you for your support!
+## Thank you for reading, and thank you for your support!
 	
 
 
