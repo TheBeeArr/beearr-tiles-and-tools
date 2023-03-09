@@ -4,7 +4,7 @@ This project started as just a way to improve my personal Map-Making experience 
 
 I would like to thank everyone the Unnoficial PZ Mapping Discord (https://discord.gg/Tc3qRrM3) for the support and help they have shown me, as well as thank all tile-makers for their wonderful tiles which are the main reason why I have created all of this in the first place.
 
-If this project helped you, and you appreciate the herculean effort it took to put this project together, please consider supporting me on Ko-fi.
+If this project helped you, and you appreciate the herculean effort it took to put this project together, please consider supporting me on Ko-fi. <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support BeeArr on Ko-fi', '#29abe0', 'B0B1JBE9R');kofiwidget2.draw();</script> 
 
 # Backup your files!
 
