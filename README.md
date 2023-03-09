@@ -352,7 +352,9 @@ If you would like to use some, but not all of these tools, remove them from your
 
 - Opening the 'LuaTools.txt' file.
 - Deleting the 'tool' entries from the file.
+
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/24075df51eb6993e8b90871b754568301229ea14/Images/unwanted.gif)
+
 #### If you would like to opt out from the changes made to the 'Fence', 'Edge', and/or 'Street Decoration' tools, do not replace either of the original files (e.g: 'tool-fence.lua' & 'tool-fence-data.lua').
 
 ## Removing Modded tiles from Tool Datasets.
@@ -360,7 +362,9 @@ If you would like to use some, but not all of these tools, remove them from your
 If you would like to remove modded tiles from the dataset:
 
 - Open the .lua file corresponding to the dataset, or to the tool from which you would like to remove modded tiles.
-- Comment out the lines after the -- ## Modded ## comment:
+- Comment out the lines after the -- ## Modded ## comments.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/aaad155f73edcd44dc205fbcadefbc446c66e758/Images/moddedtiles.gif)
 
 
 
