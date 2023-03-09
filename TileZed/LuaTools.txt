@@ -1,0 +1,134 @@
+version = 1
+
+tool
+{
+    label = Draw Edge
+    icon = tool-edge.png
+    script = tool-edge.lua
+    dialog-title = Edge Tool
+}
+
+tool
+{
+    label = Draw Curb
+    icon = tool-curb.png
+    script = tool-curb.lua
+    dialog-title = Curb Tool
+}
+
+tool
+{
+    label = Draw Fence
+    icon = tool-fence.png
+    script = tool-fence.lua
+    dialog-title = Fence Tool
+}
+
+tool
+{
+    label = Parking Stall
+    icon = tool-parking-stall.png
+    script = tool-parking-stall.lua
+}
+
+tool
+{
+    label = Single Tile Objects
+    icon = tool-street-decoration.png
+    script = tool-street-decoration.lua
+    dialog-title = Single-Tile Objects
+}
+
+tool
+{
+    label = Multi-tile Objects
+    icon = tool-mto.png
+    script = tool-mto.lua
+    dialog-title = Multi-tile Objects
+}
+
+tool
+{
+    label = Random Houseplant
+    icon = tool-random-houseplant.png
+    script = tool-random-houseplant.lua
+}
+
+tool
+{
+    label = Random Grass
+    icon = tool-random-grass.png
+    script = tool-random-grass.lua
+}
+
+
+tool
+{
+    label = Random Shrub
+    icon = tool-random-plant.png
+    script = tool-random-plant.lua
+}
+
+tool
+{
+    label = Seasonal Bushes
+    icon = tool-four-seasons-bushes.png
+    script = tool-four-seasons-bushes.lua
+}
+
+
+tool
+{
+    label = Random Tree
+    icon = tool-random-tree.png
+    script = tool-random-tree.lua
+}
+
+tool
+{
+    label = Seasonal Trees
+    icon = tool-four-seasons.png
+    script = tool-four-seasons.lua
+}
+
+tool
+{
+    label = Street Cracks
+    icon = tool-random-cracks.png
+    script = tool-random-cracks.lua
+}
+
+tool
+{
+    label = Trash
+    icon = tool-random-trash.png
+    script = tool-random-trash.lua
+}
+
+tool
+{
+    label = Stone
+    icon = tool-random-stone.png
+    script = tool-random-stone.lua
+}
+
+tool
+{
+    label = Junk-Stack
+    icon = tool-random-junkstacks.png
+    script = tool-random-junkstacks.lua
+}
+
+tool
+{
+    label = Overgrown Object
+    icon = tool-random-overgrown.png
+    script = tool-random-overgrown.lua
+}
+
+tool
+{
+    label = Blood
+    icon = tool-random-blood.png
+    script = tool-random-blood.lua
+}
