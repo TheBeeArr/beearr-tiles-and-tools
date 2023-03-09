@@ -428,7 +428,7 @@ The exact tilesets this edit is currently using can be found on [this file](http
 #### Backup your files before proceeding.
 Regardless of which BuildEd you are currently using (Vanilla or Alree's Fork) the files to be replaced can be found at:
 	
-#### C:\Users\USERNAME\.TileZed
+#### C:\Users\USERNAME\\.TileZed
 - Copy all files within this project's /-dot-TileZed/ folder, into your /.TileZed/ folder, replacing when prompted.
 
 
