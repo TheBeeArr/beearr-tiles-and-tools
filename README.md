@@ -2,7 +2,7 @@
 
 This project started as just a way to improve my personal Map-Making experience in Project Zomboid's TilZed/WordlEd/BuildingEd tools. It started with the simple goal of adding tiles to BuildingEd, but evolved into a complete new set of tools for TilZed, as well as a re-work of some existing ones, that will hopefuly make the Map-making process easier and more acessible for everyone.
 
-I would like to thank everyone the Unnoficial PZ Mapping Discord (https://discord.gg/Tc3qRrM3) for the support and help they have shown me.
+I would like to thank everyone the Unnoficial PZ Mapping Discord (https://discord.gg/Tc3qRrM3) for the support and help they have shown me, as well as thank all tile-makers for their wonderful tiles which are the main reason why I have created all of this in the first place.
 
 If this project helped you, and you appreciate the herculean effort it took to put this project together, please consider supporting me on Ko-fi.
 
@@ -128,6 +128,13 @@ add4d {
 	distance = true
 }
 ```
+## TileZed - Multi-Tile Object Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d285affc3e458fecb6a8a0a7e5fdfc28a82a6503/Images/nto.png)
+Gone are the days in which you have to rumage through tilesheets and manually select tiles when you want to place a large object directly in TileZed. This tool is my crowining acheivement and allows you to place multi-tile objects with one click! While the current selection of tiles isn't quite extensive, it is easily expandable as with the other tools.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d285affc3e458fecb6a8a0a7e5fdfc28a82a6503/Images/mto2.png)
+![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/be71d7625738b85c2b227bd9be59e25dcccb883c/Images/mto1.gif)
+
+### Rotating Objects.
 
 
 
