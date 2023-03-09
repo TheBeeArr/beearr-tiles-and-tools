@@ -26,9 +26,22 @@ I personally like to use many mods, especially new tiles. As such most of this p
 - I have separated the tiles used by the TileZed tools into two categories (Vanilla and Modded); it should be easy to spot and comment out the modded tiles if you prefer to make maps using only Vanilla tiles.
 - When it comes to the BuildingEd ISO mode, I made no such separation, and using my modifications to that tool without the mods/tilesheets is not recommended.
 
-# The Tools ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/73d119b0436c002a085a028976240fad8ef2e0f4/Images/TileZedTools.png)
+# The TileZed Tools ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/73d119b0436c002a085a028976240fad8ef2e0f4/Images/TileZedTools.png)
 
-## TileZed - Fence Tool ![Fence Tool](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4cd04d6f7bad494a38c857c2211bc81479ac845f/Images/2023-03-08%2023_41_36-Window.png)
+## Expanded - Edge Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_56_53-Window.png)
+
+### Expanded Tile Selection
+While the functionality of the Edge Tool remains unchanged, the list of available tiles has been increased.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_57_04-Window.png)
+
+### More than just edges.
+The Edge Tool distinguishes itself from the fence tool in its ability to draw 'Outer' and 'Inner' corners, which greatly expands its use beyond simply drawing Grime and traffic lines. Although the current set of tiles which can benefit from placement througn this tool is low, new updates to vanilla and modded content might add new tiles to be used. Here are some examples:
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/flowers.gif)
+![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/dddpowerstation.gif)
+
+## Reworked - Fence Tool ![Fence Tool](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4cd04d6f7bad494a38c857c2211bc81479ac845f/Images/2023-03-08%2023_41_36-Window.png)
 
 ### Expanded Tile Selection
 Pertominus#5743 gave me a great deal of inspiration when he shared his personal 'tool-fence-data.lua'. I have greatly expanded upon that list of fences to include all fences, both vanilla and modded (excluding the broken pieces.) As well as other non-fence tiles which work well with the tool, such as power lines, HVAC tiles, vines, etc.
@@ -72,20 +85,8 @@ fence {
    se = 'fencing_01_69' -- South East Corner Piece, same as 'post' for most fences.
 }
 ```
-## TileZed - Edge Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_56_53-Window.png)
 
-### Expanded Tile Selection
-While the functionality of the Edge Tool remains unchanged, the list of available tiles has been increased.
-
-![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/2023-03-09%2000_57_04-Window.png)
-
-### More than just edges.
-The Edge Tool distinguishes itself from the fence tool in its ability to draw 'Outer' and 'Inner' corners, which greatly expands its use beyond simply drawing Grime and traffic lines. Although the current set of tiles which can benefit from placement througn this tool is low, new updates to vanilla and modded content might add new tiles to be used. Here are some examples:
-
-![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/flowers.gif)
-![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d380ed17282d9c469687e57140ed86744a19deee/Images/dddpowerstation.gif)
-
-## TileZed - Single-tile Object Tool (Formerly Street Decoration Tool) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dd9cd9756268d928306dfd54ccc4af7f078fb0e2/Images/2023-03-09%2001_17_54-Window.png)
+## Reworked - Single-tile Object Tool (Formerly Street Decoration Tool) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dd9cd9756268d928306dfd54ccc4af7f078fb0e2/Images/2023-03-09%2001_17_54-Window.png)
 
 ### Expanded Tile Selection
 The lackluster vanilla selection has been greatly increased to cover most tiles that could be used outdoors.
@@ -128,7 +129,7 @@ add4d {
 	distance = true
 }
 ```
-## TileZed - Multi-Tile Object Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d285affc3e458fecb6a8a0a7e5fdfc28a82a6503/Images/nto.png)
+## NEW - Multi-Tile Object Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d285affc3e458fecb6a8a0a7e5fdfc28a82a6503/Images/nto.png)
 Gone are the days in which you have to rumage through tilesheets and manually select tiles when you want to place a large object directly in TileZed. This tool is my crowining acheivement and allows you to place multi-tile objects with one click! While the current selection of tiles isn't quite extensive, it is easily expandable as with the other tools.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d285affc3e458fecb6a8a0a7e5fdfc28a82a6503/Images/mto2.png)
@@ -202,9 +203,13 @@ When creating a new object for the tool, please keep in mind that the tiles are 
             s = nil,
         },
     },
-    ```
+```
     
-##
+## Expanded - Houseplant Tool
+Thanks to our wonderful tile-makers, this tool's usable tile pool has been greatly increased. 
+Vanilla Users: While out-of-the-box it depends on those modded tiles, I made it easy to comment them out on the tool itself. 
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/fb55bccd1f056901922da2d3e32260613556569e/Images/houseplant.gif)
 
 
 
