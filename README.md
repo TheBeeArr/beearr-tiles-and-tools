@@ -341,10 +341,11 @@ Allows you to place blood splaters on the '0_FloorOverlay' layer.
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.gif)
 
 ## Adding these tools to your TileZed.
+#### Backup your files before proceeding.
 The process of adding the tools is faily simple. Head to your TileZed folder and:
 
 - Replace the 'LuaTools.txt' within your /TileZed/ folder by the one provided in this Project.
-- Add all files within the provided /TileZed/lua/ folder to your /TileZed/lua/ folder, replacing all files when prompted.
+- Add all files within the /TileZed/lua/ folder provided in this project to your /TileZed/lua/ folder, replacing all files when prompted.
 - If you use Alree's fork of TileZed, place the files on the TileZed folder of his fork.
 
 ## Choosing which tools to use.
@@ -421,7 +422,18 @@ tsarcraft_music.pack
 tsarcraft_music2x.pack
 Fire2x.pack
 ```
-The exact tilesets this edit is currently using can be found on this file:
+The exact tilesets this edit is currently using can be found on [this file](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/4b3542f52aed6af7a105e182aa42905fe1b6ca48/-dot-TileZed/Tilesets.txt)
+	
+## Adding the improvements to your BuildEd.
+#### Backup your files before proceeding.
+Regardless of which BuildEd you are currently using (Vanilla or Alree's Fork) the files to be replaced can be found at:
+	
+#### C:\Users\USERNAME\.TileZed
+- Copy all files within this project's /-dot-TileZed/ folder, into your /.TileZed/ folder, replacing when prompted.
+
+
+	
+	
 
 
 
