@@ -372,9 +372,21 @@ To me, this is the true wonder of this project. So many tiles in the vanilla gam
 
 To help myself, and the many others who are beginning their map-making journey (and veterans as well, of course), I painstakingly went through most of the tilesets made publicaly available by the devs in this [forum post](https://theindiestone.com/forums/index.php?/topic/50425-latest-tilezed-worlded-and-tilesets-march-14-2022/)
 	
-Not only that, but I did the same for most of the modded tilesets that our incredible community has created. The end result includes what I believe is 90% of the general use (tiles that could be used on any map // not created for specfic projects), non-meme tiles, available for use in ISO mode on BuildEd.
+Not only that, but I did the same for most of the modded tilesets that our incredible community has created. The end result includes what I believe is 90% of the general use (tiles that could be used on any map // not created for specfic projects), non-meme tiles, available for use in ISO mode on BuildEd. This includes walls, roofs, trims, furniture, signs, roof caps, grime, etc; added by hand to BuildEd.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a248edc481c104d966afd352f942588fb84e3ced/Images/BuildEd.gif)
+	
+## In Numbers
+Vanilla 'BuildingTiles.txt' size:
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a500b31f5ee44b78845d3fc618fc23769725256c/Images/buildingtilesvanilla.png)
+BeeArr's 'BuildingTiles.txt' size:
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a500b31f5ee44b78845d3fc618fc23769725256c/Images/buildingtilesmodded.png)
+
+Vanilla 'BuildingFurniture.txt' size:
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a500b31f5ee44b78845d3fc618fc23769725256c/Images/buildingfurniturevanilla.png)
+BeeArr's 'BuildingFurniture.txt' size:
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/20fa00a7ea2ff4e8c4859ccd7c4ffa7423989039/Images/speedl.gif)![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a500b31f5ee44b78845d3fc618fc23769725256c/Images/buildingfurnituremodded.png)![3](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/20fa00a7ea2ff4e8c4859ccd7c4ffa7423989039/Images/speedr.gif)
+
 
 
 
