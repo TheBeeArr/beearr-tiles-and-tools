@@ -386,7 +386,42 @@ Vanilla 'BuildingFurniture.txt' size:
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a500b31f5ee44b78845d3fc618fc23769725256c/Images/buildingfurniturevanilla.png)
 BeeArr's 'BuildingFurniture.txt' size:
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/20fa00a7ea2ff4e8c4859ccd7c4ffa7423989039/Images/speedl.gif)![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/a500b31f5ee44b78845d3fc618fc23769725256c/Images/buildingfurnituremodded.png)![3](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/20fa00a7ea2ff4e8c4859ccd7c4ffa7423989039/Images/speedr.gif)
-
+	
+## About Mods
+I have used modded tilesets extensively through this project, therefore to make full use of my changes would require you to have the same modded tilesets as well. The current .pack files within my mod folder are:
+	
+```
+Smoke2x.pack
+Blood.pack
+water_dispenser.pack
+en_newburbs.pack
+improvisedflooring.pack
+perts_tiles.pack
+perts_xmas_tiles.pack
+Quarters.pack
+solarmod_tileset_01.pack
+solarmod_tileset_01.pack
+melos_tiles_for_miles.pack
+P4PumpPury.pack
+ivery_tiles.pack
+fearstiles.pack
+lighting_indoor_01.pack
+SGnewFarming_01.pack
+SGnewFarming_01.pack
+SGnewFarming_01.pack
+DTilesPack.pack
+RC_01.pack
+diederiks_tile_palooza.pack
+tkTiles_01.pack
+swws_weather_station.pack
+grapeseed.pack
+blackwood.pack
+DTilesPack.pack
+tsarcraft_music.pack
+tsarcraft_music2x.pack
+Fire2x.pack
+```
+The exact tilesets this edit is currently using can be found on this file:
 
 
 
