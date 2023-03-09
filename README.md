@@ -99,7 +99,7 @@ The original tool was able to place street lamps and traffic lights layers 0_Fur
 
 ### Example Data Entry
 Before you use this tool, make sure your current map features all of these layers: '0_furniture, 1_furniture, 2_furniture'.
-If you wish to create new entries follow this template and add them to 'tool-street-decoration-data.lua'.
+If you wish to create new object entries follow this template and add them to 'tool-street-decoration-data.lua'.
 
 ```lua
 add4d {
@@ -138,6 +138,73 @@ Gone are the days in which you have to rumage through tilesheets and manually se
 MTO can rotate objects! By pressing the Alt, Ctrl, or Shift Keys, the object will be rotated if different orientation versions of that object are available.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d4e7f0c3420d6d1a1fcc27ce6904fb4624f6cc8f/Images/mto2.gif)
+
+### Example Data Entry
+When creating a new object for the tool, please keep in mind that the tiles are arranged in the pattern shown in this image.
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/8065ce93ee0fcaee40fa0a93ec57e83e21d7bf4b/Images/mto3.png)
+
+- dir1 refers to the tiles displayed when no key is pressed, dir2 when Shift is pressed, dir3 when Control is pressed, and dir4 when Alt is pressed.
+- When an object does not have tiles in each orientation, copy the usable ones to the leftover directions so the tool continues working (See 'Orange Tents' template)
+- Objects with two tiles should follow the 'Orange Tents' template.
+
+```lua
+    {
+        label = 'Picnic Table',
+        dir1 = {
+            w = 'camping_01_8',
+            n = 'camping_01_9',
+            e = 'camping_01_10',
+            s = 'camping_01_11'
+        },
+        dir2 = {
+            w = 'camping_01_12',
+            n = 'camping_01_15',
+            e = 'camping_01_13',
+            s = 'camping_01_14'
+        },
+	dir3 = {
+            w = 'camping_01_8',
+            n = 'camping_01_9',
+            e = 'camping_01_10',
+            s = 'camping_01_11'
+        },
+	dir4 = {
+            w = 'camping_01_12',
+            n = 'camping_01_15',
+            e = 'camping_01_13',
+            s = 'camping_01_14'
+        },
+    },
+	{
+        label = 'Orange Tents',
+        dir1 = {
+            w = 'camping_01_0',
+            n = 'camping_01_1',
+            e = nil,
+            s = nil,
+        },
+        dir2 = {
+            w = 'camping_01_2',
+            n = nil,
+            e = 'camping_01_3',
+            s = nil,
+        },
+	dir3 = {
+            w = 'camping_01_0',
+            n = 'camping_01_1',
+            e = nil,
+            s = nil,
+        },
+	dir4 = {
+            w = 'camping_01_2',
+            n = nil,
+            e = 'camping_01_3',
+            s = nil,
+        },
+    },
+    ```
+    
+##
 
 
 
