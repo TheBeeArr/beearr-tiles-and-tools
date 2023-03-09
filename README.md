@@ -307,14 +307,42 @@ winter = {
 ```
 
 ## NEW - Cracks Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/cracks.png)
-Allows you to place small street cracks on the '0_FloorOverlay' layers.
+Allows you to place small street cracks on the '0_FloorOverlay' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/cracks.gif)
 
 ## NEW - Trash Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/trash.png)
-Allows you to place small street cracks on the '0_FloorOverlay' layers.
+Allows you to place small street cracks on the '0_FloorOverlay' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/trash.gif)
+
+## NEW - Stone Tool (Relies Exclusively on Daddy Dirkie dirks Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stone.png)
+I made these three tool with great appreciation for the tiles that Dirk, Melo, Pert and all others have made. It allows you to place stones randomly on the '0_Furniture' layer.
+#### You must have DDD's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stone.gif)
+
+## NEW - Stacked Junk Tool (Relies Exclusively on Daddy Dirkie dirks Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stacked.png)
+
+ It allows you to place Stacked Furniture tiles randomly on the '0_Furniture' layer.
+#### You must have DDD's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stackedjunk.gif)
+
+## NEW - Overgrown Tiles Tool (Relies on both DDD and Melo's Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/overgrown.png)
+It allows you to place his Overgrown tiles randomly on the '0_Furniture' layer.
+#### You must have DDD's and Melo's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/overgrown.gif)
+
+## NEW - Blood Tool (Vanilla) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.png)
+Allows you to place blood splaters on the '0_FloorOverlay' layer.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.gif)
+
+
+
+
 
 
 
