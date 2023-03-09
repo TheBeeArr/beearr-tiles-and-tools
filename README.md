@@ -212,12 +212,12 @@ Thanks to our wonderful tile-makers, this tool's usable tile pool has been great
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/fb55bccd1f056901922da2d3e32260613556569e/Images/houseplant.gif)
 
 ## NEW - Grass Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/26eea2bdc144a847ac0b2af79935821980974286/Images/gress.png)
-Allows you to place grass anywhere. No more fidgeting with Rulesets and the BMP Brush.
+Allows you to place grass anywhere. No more fidgeting with Rulesets and the BMP Brush. Places grass on the 'O_Vegetation' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/17d660f0e57246697d43aa9169e43fb81d5926f1/Images/grass.gif)
 
 ## NEW - Shrub Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/bushes.png)
-Allows you to place shrubs, and other low plants.
+Allows you to place shrubs, and other low plants. Places shrubs on the 'O_Vegetation' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/shrub.gif)
 
@@ -279,6 +279,42 @@ This tool is also able to place trees from different seasons:
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/dff6b2a3e47a9b2b688d19e815e9126e0b7103bc/Images/4seasontrees.gif)
 
+### Example Data Entry
+The tool works by pulling tilesheet data from each bracket, in order, and placing the fisrt one on the '0_Vegetation' layer, and the second one on the '0_Vegetation1' layer
+
+- The Spring, Summer, and Autumn tools are all able to place tiles in two layers.
+- The Winter tool currently only places tiles on a single layer.
+
+```lua
+spring = {
+{'e_americanlinden_1_0', 'e_americanlinden_1_8'},
+{'e_americanlinden_1_0', 'e_americanlinden_1_12'},
+}
+summer = {
+{'e_americanlinden_1_0', 'e_americanlinden_1_12'},
+{'e_americanlinden_1_1', 'e_americanlinden_1_13'},
+}
+
+autumn = {
+{'e_americanlinden_1_0', 'e_americanlinden_1_16'},
+{'e_americanlinden_1_0', 'e_americanlinden_1_20'},
+}
+
+winter = {
+{'e_americanlinden_1_0'},
+{'e_americanlinden_1_1'},
+}
+```
+
+## NEW - Cracks Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/cracks.png)
+Allows you to place small street cracks on the '0_FloorOverlay' layers.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/cracks.gif)
+
+## NEW - Trash Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/trash.png)
+Allows you to place small street cracks on the '0_FloorOverlay' layers.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/72f8053fbdc1fed69ce953af3ba1790ddd11aead/Images/trash.gif)
 
 
 
