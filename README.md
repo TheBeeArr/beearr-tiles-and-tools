@@ -136,7 +136,7 @@ Gone are the days in which you have to rumage through tilesheets and manually se
 ![2](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/3fb8562d2ba876dc2319bfd61f9d2f6501281b20/Images/mto1.gif)
 
 ### Rotating Objects.
-MTO can rotate objects! By pressing the Alt, Ctrl, or Shift Keys, the object will be rotated if different orientation versions of that object are available.
+MTO can rotate objects! By holding the Alt, Ctrl, or Shift Keys, the object will be rotated if different orientation versions of that object are available.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/d4e7f0c3420d6d1a1fcc27ce6904fb4624f6cc8f/Images/mto2.gif)
 
@@ -207,14 +207,57 @@ When creating a new object for the tool, please keep in mind that the tiles are 
     
 ## Expanded - Houseplant Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/17d660f0e57246697d43aa9169e43fb81d5926f1/Images/houseplant.png)
 Thanks to our wonderful tile-makers, this tool's usable tile pool has been greatly increased. 
-Vanilla Users: While out-of-the-box it depends on those modded tiles, I made it easy to comment them out on the tool itself. 
+- Vanilla Users: While out-of-the-box it depends on those modded tiles, I made it easy to comment them out on the tool itself. 
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/fb55bccd1f056901922da2d3e32260613556569e/Images/houseplant.gif)
 
 ## NEW - Grass Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/26eea2bdc144a847ac0b2af79935821980974286/Images/gress.png)
-Allows you to place grass anywhere! Very straight-forward.
+Allows you to place grass anywhere.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/17d660f0e57246697d43aa9169e43fb81d5926f1/Images/grass.gif)
+
+## NEW - Shrub Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/bushes.png)
+Allows you to place shrubs, and low plants.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/shrub.gif)
+
+## NEW - Seasonal Bushes ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/4seasonbushes.png)
+Placing Bushes by hand with the new game tiles was incredibly difficult. You needed to select each of the bush tiles (Wood, Leaves, Flowers) and place them one-by-one, changing layers in between. This Bush tool does that automatically, randomizing the bushes placed in the process.
+
+- Before using this tool, add the following Layers to your map: '0_Vegetation', '0_Vegetation1', '0_Vegetation2'.
+
+### Four Seasons
+This tool is also able to place bushes from different seasons:
+- By holding the Alt Key, you are able to place Spring Bushes.
+- By holding the Ctrl Key, you are able to place Autumn Bushes.
+- By holding the Shift Key, you are able to place Winter Bushes.
+- Without holding any Key, the tool defaults to Summer/Green Bushes.
+
+![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/87a4582de3298feac8e5844996fbdf3801e9f789/Images/4seasonbushes.gif)
+
+### Example Data Entry
+
+
+```lua
+spring = {
+{'d_plants_1_16', 'd_plants_1_24'},
+{'f_bushes_1_7', 'f_bushes_1_71', 'f_bushes_1_87'},
+}
+summer = {
+{'f_bushes_1_0', 'f_bushes_1_64'},
+}
+
+autumn = {
+{'d_plants_1_15'},
+{'f_bushes_1_0', 'f_bushes_1_48'},
+}
+
+winter = {
+{'f_bushes_1_0'},
+}
+```
+
+
 
 
 
