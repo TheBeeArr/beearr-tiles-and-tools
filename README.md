@@ -335,7 +335,7 @@ It allows you to place his Overgrown tiles randomly on the '0_Furniture' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/overgrown.gif)
 
-## NEW - Blood Tool (Vanilla) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.png)
+## NEW - Blood Tool ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.png)
 Allows you to place blood splaters on the '0_FloorOverlay' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/blood.gif)
@@ -367,7 +367,7 @@ If you would like to remove modded tiles from the dataset:
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/aaad155f73edcd44dc205fbcadefbc446c66e758/Images/moddedtiles.gif)
 
-
+# The BuildEd Improvements
 
 
 
