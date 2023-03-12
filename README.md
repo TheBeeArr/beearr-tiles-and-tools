@@ -322,16 +322,16 @@ I made these three tool with great appreciation for the tiles that Dirk, Melo, P
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stone.gif)
 
-## NEW - Stacked Junk Tool (Relies Exclusively on Daddy Dirkie dirks Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stacked.png)
+## NEW - Stacked Junk Tool (Relies Exclusively on Dylan's Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stacked.png)
 
  It allows you to place Stacked Furniture tiles randomly on the '0_Furniture' layer.
-#### You must have DDD's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
+#### You must have Dylan's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/stackedjunk.gif)
 
-## NEW - Overgrown Tiles Tool (Relies on both DDD and Melo's Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/overgrown.png)
+## NEW - Overgrown Tiles Tool (Dylan's and Melo's Tiles) ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/overgrown.png)
 It allows you to place his Overgrown tiles randomly on the '0_Furniture' layer.
-#### You must have DDD's and Melo's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
+#### You must have Dylan's and Melo's tilepacks installed for this tool to work, if you wish to remain vanilla, remove this tool.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/11e7dc8ee7db442364e6b2f0361b767fcfd2a4f5/Images/overgrown.gif)
 
