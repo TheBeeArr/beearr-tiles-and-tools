@@ -344,23 +344,23 @@ Allows you to place blood splaters on the '0_FloorOverlay' layer.
 
 The wonderful Aza has released a tile-to-ingame-item mod that allows mappers to easily create their own stories by guaranteeing spawns of items, cars, notes, weapons, etc. My addon tools will allow you to quickly place some of the available items while in Tilezed.
 
-# Random Corpse Tool
-# Random Zombie Tool
-# Random Skeletons
-# Random Army Zombie Tool
-# Random Police Zombie Tool
-# Random Medical Zombie Tool
-# Random Special Zombie Tool
-# Random Container Tool
-# Random Electronics Tool
-# Random Electronics Scrap Tool
-# Random Metal Scrap Tool
-# Random Wood Scrap Tool
-# Random Farm Equipment Tool
-# Random Melee Weapon Tool
-# Random Firearm Tool
-# Random Explosive Tool
-# Four Direction Vehicle Placer Tool
+### Random Corpse Tool
+### Random Zombie Tool
+### Random Skeletons
+### Random Army Zombie Tool
+### Random Police Zombie Tool
+### Random Medical Zombie Tool
+### Random Special Zombie Tool
+### Random Container Tool
+### Random Electronics Tool
+### Random Electronics Scrap Tool
+### Random Metal Scrap Tool
+### Random Wood Scrap Tool
+### Random Farm Equipment Tool
+### Random Melee Weapon Tool
+### Random Firearm Tool
+### Random Explosive Tool
+### Four Direction Vehicle Placer Tool
 
 Follow the instructions below to install these tools in your own Tilezed, but instead of replacing the LuaTools.txt file, copy and paste the code from the version within Aza's Addons folder to your own LuaTools.txt file.
 
