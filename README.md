@@ -344,7 +344,9 @@ Allows you to place blood splaters on the '0_FloorOverlay' layer.
 
 ![1](https://github.com/TheBeeArr/beearr-tiles-and-tools/blob/main/Aza's%20Tools/aza's%20tools.png)
 
-The wonderful Aza has released a tile-to-ingame-item mod that allows mappers to easily create their own stories by guaranteeing spawns of items, cars, notes, weapons, etc. My addon tools will allow you to quickly place some of the available items while in Tilezed.
+
+The wonderful Azakaela has released a tile-to-ingame-item mod that allows mappers to easily create their own stories by guaranteeing spawns of items, cars, notes, weapons, etc. My addon tools will allow you to quickly place some of the available items while in Tilezed.
+You may find that mod here: ![1](https://steamcommunity.com/sharedfiles/filedetails/?id=2991554892)
 
 ### Random Corpse Tool
 ### Random Zombie Tool
@@ -364,7 +366,11 @@ The wonderful Aza has released a tile-to-ingame-item mod that allows mappers to 
 ### Random Explosive Tool
 ### Four Direction Vehicle Placer Tool
 
-Follow the instructions below to install these tools in your own Tilezed, but instead of replacing the LuaTools.txt file, copy and paste the code from the version within Aza's Addons folder to your own LuaTools.txt file.
+## How to install Aza's addons.
+
+Follow the instructions below to install these tools in your own Tilezed, but instead of replacing the LuaTools.txt file, copy and paste the code from the version within Aza's Tools folder to your own LuaTools.txt file.
+
+Needless to say, these addons require the tilesets from Azakaela's Tile 2 Item Converter Addon.
 
 ## Adding these tools to your TileZed.
 #### Backup your files before proceeding.
