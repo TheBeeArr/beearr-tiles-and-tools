@@ -1,0 +1,124 @@
+tool
+{
+    label = Aza's Random Zombie Corpses
+    icon = tool-random-corpsez.png
+    script = tool-random-corpseZ.lua
+}
+
+tool
+{
+    label = Aza's Random Skeletons
+    icon = tool-random-skeletons.png
+    script = tool-random-skeleton.lua
+}
+
+tool
+{
+    label = Aza's Random Zombie
+    icon = tool-random-zombie.png
+    script = tool-random-zombie.lua
+}
+
+tool
+{
+    label = Aza's Random Army Zombies
+    icon = tool-random-armyzombie.png
+    script = tool-random-armyzombies.lua
+}
+
+tool
+{
+    label = Aza's Random Police Zombies
+    icon = tool-random-policezombie.png
+    script = tool-random-policezombies.lua
+}
+
+tool
+{
+    label = Aza's Random Medical Zombies
+    icon = tool-random-medicalzombie.png
+    script = tool-random-medicalzombies.lua
+}
+
+tool
+{
+    label = Aza's Random Special Zombie
+    icon = tool-random-occupationzombie.png
+    script = tool-random-occupationzombies.lua
+}
+
+tool
+{
+    label = Aza's Random Container
+    icon = tool-random-container.png
+    script = tool-random-container.lua
+}
+
+tool
+{
+    label = Aza's Random Electronics
+    icon = tool-random-electronic.png
+    script = tool-random-electronic.lua
+}
+
+tool
+{
+    label = Aza's Random Electronic Scrap
+    icon = tool-random-electronicscrap.png
+    script = tool-random-electronicscrap.lua
+}
+
+tool
+{
+    label = Aza's Random Metal Scrap
+    icon = tool-random-metalscrap.png
+    script = tool-random-metalscrap.lua
+}
+
+tool
+
+{
+    label = Aza's Random Wood Scrap
+    icon = tool-random-wood.png
+    script = tool-random-woodscrap.lua
+}
+
+tool
+
+{
+    label = Aza's Random Farm Equipment
+    icon = tool-random-farm.png
+    script = tool-random-farm.lua
+}
+
+tool
+
+{
+    label = Aza's Random Bonking Implement
+    icon = tool-random-bonk.png
+    script = tool-random-bonk.lua
+}
+
+tool
+
+{
+    label = Aza's Random Firearm
+    icon = tool-random-firearm.png
+    script = tool-random-firearm.lua
+}
+
+tool
+
+{
+    label = Aza's Random Explosive
+    icon = tool-random-explosive.png
+    script = tool-random-explosive.lua
+}
+
+tool
+{
+    label = Aza's Vehicles
+    icon = tool-cars.png
+    script = tool-street-cars.lua
+    dialog-title = Aza's Vehicles
+}
