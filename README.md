@@ -346,7 +346,7 @@ Allows you to place blood splaters on the '0_FloorOverlay' layer.
 
 
 The wonderful Azakaela has released a tile-to-ingame-item mod that allows mappers to easily create their own stories by guaranteeing spawns of items, cars, notes, weapons, etc. My addon tools will allow you to quickly place some of the available items while in Tilezed.
-You may find that mod here: ![1](https://steamcommunity.com/sharedfiles/filedetails/?id=2991554892)
+You may find that [mod here](https://steamcommunity.com/sharedfiles/filedetails/?id=2991554892).
 
 ### Random Corpse Tool
 ### Random Zombie Tool
